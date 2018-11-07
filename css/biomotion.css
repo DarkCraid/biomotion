@@ -1,0 +1,95 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	background: #f3f3f3;
+}
+
+: root{
+	--red: #f91a1afa;
+	--color1: #00549e; /* blue */
+	--poppins: 'Poppins', sans-serif;
+}
+
+header{
+	font-family: var(--poppins);
+    background: #b6c8d8e0;
+    box-shadow: 2px -2px 58px #000;
+    font-size: 17px;
+    padding: 30px 20px;
+    position: relative;
+    z-index: 100;
+}
+
+header h1{
+	font-size: 25px;
+	margin: 0;
+}
+
+.fondo{
+	position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.logo{
+	position: absolute;
+    left: 50%;
+    z-index: 2;
+    background: transparent;
+    height: 50%;
+    transform: translateX(-50%);
+}
+
+.first-cont{
+	position: relative;
+	height: 100vh;
+	top: 100px;
+	opacity: 0;
+}
+
+a.btn-outline-info{
+	position: absolute;
+    bottom: calc(30vh);
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 30px;
+    color: #bbfdfa;
+    border: 2px solid #bbfdfa;
+}
+
+
+#chart{
+	display: none;
+	background: #000;
+}
+#calendar{
+	height: 100vh;
+}
+#lineChart{
+	height: 100vh !important;
+}
+.container-fluid{position: relative;z-index: 1;}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	padding: 5px 20px;
+}
+nav{
+	float: right;
+	position: relative;
+    top: -18px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #505050;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	color: #000;
+}
